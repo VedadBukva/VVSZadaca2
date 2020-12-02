@@ -37,7 +37,7 @@ namespace Filmoteka
                     || !value.All(char.IsUpper))
                     throw new InvalidOperationException("Neispravan format za password!");
 
-                password = value.GetHashCode().ToString(); ;
+                password = value.GetHashCode().ToString(); 
             }
         }
 
@@ -109,7 +109,17 @@ namespace Filmoteka
         /// <returns></returns>
         public static Tuple<string, string> AutomatskiKorisničkiPodaci(string ime, string prezime)
         {
-            throw new NotImplementedException();
+            if(ime==null || prezime==null || ime.Any(char.IsDigit) || prezime.Any(char.IsDigit)) 
+            {
+                throw new NotImplementedException();
+            }
+            string username = ime[0].ToString() + ime[1].ToString() + prezime + ime.Remove(2);
+            if(username.Length > 20)
+            {
+                username = username.Remove(19);
+            }
+            Tuple<string, string> rezultat = Tuple.Create(username.ToLower(), username.ToUpper());
+            return rezultat;
         }
 
         #endregion
