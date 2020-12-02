@@ -115,7 +115,14 @@ namespace Filmoteka
 
             List<Film> temp = new List<Film>();
 
-            
+            filmovi.ForEach(film => {
+                int brojGlumaca = 0;
+                glumci.ForEach(glumac => {
+                    if (film.Glumci.Contains(glumac)) brojGlumaca++;
+                });
+                if (brojGlumaca == glumci.Count) temp.Add(film);
+            });
+
             return temp;
         }
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.34183673469387754" branch-rate="0.15789473684210525" lines-covered="67" lines-valid="196" branches-covered="12" branches-valid="76" complexity="110" version="0" timestamp="1606923625">
+<coverage line-rate="0.29411764705882354" branch-rate="0.0975609756097561" lines-covered="60" lines-valid="204" branches-covered="8" branches-valid="82" complexity="115" version="0" timestamp="1606924550">
   <sources>
     <source>C:\Users\nadir\</source>
   </sources>
   <packages>
-    <package name="Filmoteka" line-rate="0.27218934911242604" branch-rate="0.16666666666666666" complexity="102">
+    <package name="Filmoteka" line-rate="0.22857142857142856" branch-rate="0.10810810810810811" complexity="104">
       <classes>
         <class name="Filmoteka.Clan" filename="C:\Users\nadir\Desktop\VVSZadaca2\Filmoteka\Filmoteka\Clan.cs" line-rate="0" branch-rate="1" complexity="6">
           <methods>
@@ -183,7 +183,7 @@
             <line number="99" hits="4" branch="false" />
           </lines>
         </class>
-        <class name="Filmoteka.Filmoteka" filename="C:\Users\nadir\Desktop\VVSZadaca2\Filmoteka\Filmoteka\Filmoteka.cs" line-rate="0.3448275862068966" branch-rate="0.17857142857142858" complexity="34">
+        <class name="Filmoteka.Filmoteka" filename="C:\Users\nadir\Desktop\VVSZadaca2\Filmoteka\Filmoteka\Filmoteka.cs" line-rate="0.21875" branch-rate="0.03333333333333333" complexity="36">
           <methods>
             <method name="get_Gosti" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -252,21 +252,27 @@
                 <line number="102" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="DajSveFilmoveSGlumcima" signature="(...)" line-rate="0.8571428571428571" branch-rate="0.6666666666666666" complexity="6">
+            <method name="DajSveFilmoveSGlumcima" signature="(...)" line-rate="0" branch-rate="0" complexity="8">
               <lines>
-                <line number="112" hits="1" branch="false" />
-                <line number="113" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="112" hits="0" branch="false" />
+                <line number="113" hits="0" branch="true" condition-coverage="0% (0/4)" />
                 <line number="114" hits="0" branch="false" />
-                <line number="116" hits="1" branch="false" />
-                <line number="118" hits="32" branch="true" condition-coverage="100% (2/2)" />
-                <line number="120" hits="1" branch="false" />
-                <line number="121" hits="1" branch="false" />
+                <line number="116" hits="0" branch="false" />
+                <line number="118" hits="0" branch="false" />
+                <line number="119" hits="0" branch="false" />
+                <line number="120" hits="0" branch="false" />
+                <line number="121" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="122" hits="0" branch="false" />
+                <line number="123" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="124" hits="0" branch="false" />
+                <line number="126" hits="0" branch="false" />
+                <line number="127" hits="0" branch="false" />
               </lines>
             </method>
             <method name="DodajNastavak" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="124" hits="2" branch="false" />
-                <line number="125" hits="2" branch="false" />
+                <line number="130" hits="3" branch="false" />
+                <line number="131" hits="3" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -334,15 +340,21 @@
             <line number="99" hits="0" branch="false" />
             <line number="101" hits="0" branch="false" />
             <line number="102" hits="0" branch="false" />
-            <line number="112" hits="1" branch="false" />
-            <line number="113" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="112" hits="0" branch="false" />
+            <line number="113" hits="0" branch="true" condition-coverage="0% (0/4)" />
             <line number="114" hits="0" branch="false" />
-            <line number="116" hits="1" branch="false" />
-            <line number="118" hits="32" branch="true" condition-coverage="100% (2/2)" />
-            <line number="120" hits="1" branch="false" />
-            <line number="121" hits="1" branch="false" />
-            <line number="124" hits="2" branch="false" />
-            <line number="125" hits="2" branch="false" />
+            <line number="116" hits="0" branch="false" />
+            <line number="118" hits="0" branch="false" />
+            <line number="119" hits="0" branch="false" />
+            <line number="120" hits="0" branch="false" />
+            <line number="121" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="122" hits="0" branch="false" />
+            <line number="123" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="124" hits="0" branch="false" />
+            <line number="126" hits="0" branch="false" />
+            <line number="127" hits="0" branch="false" />
+            <line number="130" hits="3" branch="false" />
+            <line number="131" hits="3" branch="false" />
           </lines>
         </class>
         <class name="Filmoteka.Gost" filename="C:\Users\nadir\Desktop\VVSZadaca2\Filmoteka\Filmoteka\Gost.cs" line-rate="0" branch-rate="0" complexity="36">
@@ -559,7 +571,7 @@
         </class>
       </classes>
     </package>
-    <package name="Unit Testovi" line-rate="0.7777777777777778" branch-rate="0" complexity="8">
+    <package name="Unit Testovi" line-rate="0.6896551724137931" branch-rate="0" complexity="11">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\nadir\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -573,7 +585,7 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.NoviTestovi" filename="C:\Users\nadir\Desktop\VVSZadaca2\Filmoteka\Unit Testovi\NoviTestovi.cs" line-rate="0.8076923076923077" branch-rate="0" complexity="7">
+        <class name="Unit_Testovi.NoviTestovi" filename="C:\Users\nadir\Desktop\VVSZadaca2\Filmoteka\Unit Testovi\NoviTestovi.cs" line-rate="0.7142857142857143" branch-rate="0" complexity="10">
           <methods>
             <method name="TestZamjenskiObjekat" signature="()" line-rate="0.75" branch-rate="1" complexity="1">
               <lines>
@@ -587,14 +599,16 @@
                 <line number="26" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="TestDodajNastavakIstiGlumci" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="TestDodajNastavakIstiGlumci" signature="()" line-rate="0.625" branch-rate="0" complexity="4">
               <lines>
                 <line number="34" hits="1" branch="false" />
                 <line number="35" hits="1" branch="false" />
                 <line number="37" hits="1" branch="false" />
                 <line number="38" hits="1" branch="false" />
-                <line number="42" hits="1" branch="false" />
-                <line number="45" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="44" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="45" hits="0" branch="false" />
               </lines>
             </method>
             <method name="TestDodajNastavakRazlicitiGlumci" signature="()" line-rate="0.7142857142857143" branch-rate="0" complexity="4">
@@ -631,8 +645,10 @@
             <line number="35" hits="1" branch="false" />
             <line number="37" hits="1" branch="false" />
             <line number="38" hits="1" branch="false" />
-            <line number="42" hits="1" branch="false" />
-            <line number="45" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="44" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="45" hits="0" branch="false" />
             <line number="49" hits="1" branch="false" />
             <line number="50" hits="1" branch="false" />
             <line number="52" hits="1" branch="false" />
