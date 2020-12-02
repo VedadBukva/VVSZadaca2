@@ -39,6 +39,8 @@ namespace Unit_Testovi
 
             filmoteka.DodajNastavak(film, 4.0, true);
 
+            filmoteka.DajSveFilmoveSGlumcima(new List<string>() { "Aaron Paul", "Dominic Cooper" });
+
             Assert.IsTrue(filmoteka.Filmovi.Find(f => f.Naziv == "Need For Speed 2" && f.Žanr == Zanr.Akcija && f.Glumci.Count == 2) != null);
         }
 
