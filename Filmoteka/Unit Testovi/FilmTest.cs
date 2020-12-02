@@ -20,7 +20,7 @@ namespace Unit_Testovi
             filmoteka.Filmovi.Add(film1);
             filmoteka.Filmovi.Add(film2);
 
-            Assert.isTrue(filmoteka.Filmovi.Count == 2);
+            Assert.IsTrue(filmoteka.Filmovi.Count == 2);
 
         }
 
@@ -29,7 +29,7 @@ namespace Unit_Testovi
         public void FilmTestNaziv()
         {
             Film film1 = new Film("Ime Filma1", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
-            Assert.Equal(film1.Naziv, "Ime Filma1");
+            Assert.Equals(film1.Naziv, "Ime Filma1");
 
         }
 
@@ -37,7 +37,7 @@ namespace Unit_Testovi
         public void FilmTestOcjena()
         {
             Film film1 = new Film("Ime Filma1", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
-            Assert.Equal(film1.Ocjena, "1.5");
+            Assert.Equals(film1.Ocjena, "1.5");
 
         }
 
@@ -45,7 +45,7 @@ namespace Unit_Testovi
         public void FilmTestZanr()
         {
             Film film1 = new Film("Ime Filma1", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
-            Assert.Equal(film1.Žanr, "Horor");
+            Assert.Equals(film1.Žanr, "Horor");
 
         }
 
@@ -54,7 +54,7 @@ namespace Unit_Testovi
         {
             Film film1 = new Film("Ime Filma1", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
             List<string> lista = new List<String> { "Jensen Ackles", "Jared Padalecki" };
-            Assert.Equal(film1.Glumci, lista);
+            Assert.Equals(film1.Glumci, lista);
 
         }
 
