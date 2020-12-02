@@ -54,7 +54,13 @@ namespace Filmoteka
         /// <param name="noviRok"></param>
         public void ProdužiRok(DateTime noviRok)
         {
-            throw new NotImplementedException();
+            int rezultat = DateTime.Compare(rokPretplate, DateTime.Today);
+            if (rezultat<0  || (((DateTime.Today.Year-rokPretplate.Year) *12) + DateTime.Today.Month-rokPretplate.Month) <1 
+                || (((DateTime.Today.Year - rokPretplate.Year) * 12) + DateTime.Today.Month - rokPretplate.Month) > 6)
+            {
+                throw new NotImplementedException();
+            };
+            rokPretplate = noviRok;
         }
 
         public void ResetujListe()
