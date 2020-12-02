@@ -1,15 +1,25 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "rPGwsVMA71Va9qHsWOEHj6LbU4T0UbE3hzWWfzOnQx0ar1mwKepFtM9KLG5tMn3+klBQjsgsMAa1H7qSmQ9zNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+=======
+  "dgSpecHash": "UZlEoWKr92tFzEOSi31Mt8RmI3MVohbX2LTLHmbij6Ko/GIpnjMnyET9MMkXCgK2VHAIUsAmmxp0Ew1uRewmzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problem reading the cache file C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "Problem reading the cache file C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
     }
   ]
 }

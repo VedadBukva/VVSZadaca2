@@ -1,20 +1,28 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {}
+=======
+    "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {}
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
   },
   "projects": {
-    "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
+    "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+        "projectUniqueName": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
         "projectName": "Filmoteka",
-        "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
-        "packagesPath": "C:\\Users\\nadir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
+        "projectPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+        "packagesPath": "C:\\Users\\ANc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\ANc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

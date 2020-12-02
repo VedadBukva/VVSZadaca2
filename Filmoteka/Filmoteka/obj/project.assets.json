@@ -8,19 +8,31 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\nadir\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\ANc\\.nuget\\packages\\": {}
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+=======
+      "projectUniqueName": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
       "projectName": "Filmoteka",
-      "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
-      "packagesPath": "C:\\Users\\nadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
+      "projectPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+      "packagesPath": "C:\\Users\\ANc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\ANc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +79,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problem reading the cache file C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "Problem reading the cache file C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
     }
   ]
 }

@@ -8,31 +8,47 @@ namespace Unit_Testovi
     [TestClass]
     public class GostTest
     {
-        #region Gost
+        #region GostTest
 
         [TestMethod]
-        public void GostTestKonstruktor1()
+        public void TestKontruktora()
         {
+            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            var filmoteka = new Filmoteka.Filmoteka();
+            filmoteka.Gosti.Add(gost);
 
-
-        }
-
-
-        [TestMethod]
-        public void GostTestKonstruktor2()
-        {
-
-
+            Assert.IsTrue(filmoteka.Gosti.Count == 1);
         }
 
         [TestMethod]
-        public void AutomatskiKorisničkiPodaciTest()
+        public void TestIme()
         {
-
-
+            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Assert.IsNotNull(gost.Ime);
         }
 
+        [TestMethod]
+        public void TestPrezime()
+        {
+            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Assert.IsNotNull(gost.Prezime);
+        }
 
-        #endregion 
+        [TestMethod]
+        public void TestUser()
+        {
+            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Assert.IsNotNull(gost.Username);
+            Assert.IsTrue(gost.Username.Length > 5 && gost.Username.Length < 20);
+        }
+
+        [TestMethod]
+        public void TestPassword()
+        {
+            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Assert.IsNotNull(gost.Password);
+            Assert.IsTrue(gost.Password.Length > 10 && gost.Password.Length < 20);
+        }
+        #endregion
     }
 }

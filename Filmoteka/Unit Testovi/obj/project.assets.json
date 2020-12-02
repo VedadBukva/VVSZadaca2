@@ -5732,19 +5732,31 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\nadir\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\ANc\\.nuget\\packages\\": {}
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+=======
+      "projectUniqueName": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
       "projectName": "Unit Testovi",
-      "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
-      "packagesPath": "C:\\Users\\nadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\obj\\",
+      "projectPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+      "packagesPath": "C:\\Users\\ANc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Unit Testovi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\ANc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5757,8 +5769,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
               "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
+=======
+            "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
+              "projectPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
             }
           }
         }
@@ -5813,7 +5830,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problem reading the cache file C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "Problem reading the cache file C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Unit Testovi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> b91d506fad22ff0507832ab4ac64d88dbca8e5a3
     }
   ]
 }
