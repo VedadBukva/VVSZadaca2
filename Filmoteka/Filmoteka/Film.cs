@@ -26,10 +26,23 @@ namespace Filmoteka
         Zanr žanr;
         double ocjena;
         List<string> glumci;
+        Reziser reziser;
 
         #endregion
 
         #region Properties
+
+        public Reziser Reziser
+        {
+            get
+            {
+                return reziser;
+            }
+            set
+            {
+                reziser = value;
+            }
+        }
 
         public int Id
         {
@@ -83,7 +96,7 @@ namespace Filmoteka
 
         #region Konstruktor
 
-        public Film(string name, double rating, Zanr genre, List<string> actors)
+        public Film(string name, double rating, Zanr genre, List<string> actors, Reziser reziser = null)
         {
             brojač++;
             id = brojač.GetHashCode();
@@ -91,6 +104,7 @@ namespace Filmoteka
             Naziv = name;
             Ocjena = rating;
             Žanr = genre;
+            Reziser = reziser;
 
             if (actors == null)
                 Glumci = new List<string>();
