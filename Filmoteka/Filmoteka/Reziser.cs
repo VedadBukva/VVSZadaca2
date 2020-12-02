@@ -28,6 +28,7 @@ namespace Filmoteka
         }
         public bool DaLiJeReziraoFilm(Film f)
         {
+            if (f.Reziser == null) throw new NullReferenceException();
             return f.Reziser.ImeRezisera.Equals(imeRezisera);
         }
     }
