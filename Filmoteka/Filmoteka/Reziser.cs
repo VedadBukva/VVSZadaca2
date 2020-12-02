@@ -10,9 +10,25 @@ namespace Filmoteka
     }
     public class Reziser : IReziser
     {
+        string imeRezisera;
+
+        public string ImeRezisera
+        {
+            get
+            {
+                return imeRezisera;
+            }
+            set
+            {
+                if (String.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException("Naziv ne smije biti prazan!");
+
+                imeRezisera = value;
+            }
+        }
         public bool DaLiJeReziraoFilm(Film f)
         {
-            throw new NotImplementedException();
+            return f.Reziser.ImeRezisera.Equals(imeRezisera);
         }
     }
 }

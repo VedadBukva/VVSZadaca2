@@ -13,12 +13,14 @@ namespace Unit_Testovi
         [TestMethod]
         public void TestZamjenskiObjekat()
         {
-            Film film = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" });
+            Reziser r = new Reziser();
+
+            r.ImeRezisera = "Nadir Kalajdzic";
+
+            Film film = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" }, r);
 
             var filmoteka = new Filmoteka.Filmoteka();
             filmoteka.Filmovi.Add(film);
-
-            IReziser r = new Reziser();
 
             List<Film> rezirani = filmoteka.DajSveFilmoveZaRezisera(r);
 
