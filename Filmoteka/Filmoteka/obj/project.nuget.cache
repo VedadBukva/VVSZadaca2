@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "QERObyGICt1GFkhi29abAPB2HRmTh8OR8WGo4xvJy1zSQVeGNaKriGlLezLL+1TeJlh7e0Tx4uZYzuAV7UHJmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+=======
   "dgSpecHash": "UZlEoWKr92tFzEOSi31Mt8RmI3MVohbX2LTLHmbij6Ko/GIpnjMnyET9MMkXCgK2VHAIUsAmmxp0Ew1uRewmzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+>>>>>>> 640e6f6b2eb766c8042a5fa5f431d6bf89264715
   "expectedPackageFiles": [],
   "logs": []
 }

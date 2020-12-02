@@ -42,7 +42,7 @@ namespace Unit_Testovi
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void TestDodajNastavakIzuzetak()
+        public void TestDajSveFilmoveSaGlumcimaIzuzetak()
         {
             Film film = new Film("Ime Filma", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
 
