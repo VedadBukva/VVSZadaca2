@@ -37,5 +37,55 @@ namespace Unit_Testovi
         }
 
         #endregion 
+
+        #region Bacanje exception-a
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void TestDajSveFilmoveSaGlumcimaIzuzetak()
+        {
+            Film film = new Film("Ime Filma", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
+
+            var filmoteka = new Filmoteka.Filmoteka();
+
+            filmoteka.DajSveFilmoveSGlumcima(new List<string>() { "Jensen Ackles", "Jared Padalecki" });
+        }
+
+        #endregion
+
+        #region Produzi Rok 
+
+        [TestMethod]
+        public void TestProdužiRok1()
+        {
+            var d = DateTime.Today.AddMonths(-6);
+            var c = new Clan(d);
+            var novi = DateTime.Today.AddYears(2);
+            c.ProdužiRok(novi);
+            Assert.AreEqual(c.RokPretplate, novi);
+
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NotImplementedException))]
+        public void TestProdužiRok2()
+        {
+            var d = DateTime.Today.AddMonths(-7);
+            var c = new Clan(d);
+            var novi = DateTime.Today.AddYears(2);
+            c.ProdužiRok(novi);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NotImplementedException))]
+        public void TestProdužiRok3()
+        {
+            var d = DateTime.Today.AddMonths(1);
+            var c = new Clan(d);
+            var novi = DateTime.Today.AddYears(2);
+            c.ProdužiRok(novi);
+        }
+
+        #endregion
     }
 }
