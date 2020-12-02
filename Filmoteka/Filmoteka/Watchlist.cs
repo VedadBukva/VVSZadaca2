@@ -57,7 +57,17 @@ namespace Filmoteka
         /// <returns></returns>
         public double DajSrednjuOcjenuSvihFilmova()
         {
-            throw new NotImplementedException();
+            if (filmovi == null)
+                throw new NotImplementedException();
+            else
+            {
+                double zbirOcjena = 0;
+                for (int i=0; i< filmovi.Count; i++)
+                {
+                    zbirOcjena += filmovi[i].Ocjena;
+                }
+                return zbirOcjena / filmovi.Count;
+            }
         }
 
         #endregion
