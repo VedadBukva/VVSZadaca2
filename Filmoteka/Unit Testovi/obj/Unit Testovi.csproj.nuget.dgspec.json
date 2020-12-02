@@ -1,7 +1,11 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {}
+=======
+    "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {}
+>>>>>>> 72175caa50bfcfdc053b6c9dd2380d216bcdd2b3
   },
   "projects": {
     "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
@@ -14,7 +18,11 @@
         "outputPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 72175caa50bfcfdc053b6c9dd2380d216bcdd2b3
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,6 +64,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -67,6 +76,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+        "projectName": "Unit Testovi",
+        "projectPath": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 72175caa50bfcfdc053b6c9dd2380d216bcdd2b3
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,8 +101,13 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
                 "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
+=======
+              "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
+>>>>>>> 72175caa50bfcfdc053b6c9dd2380d216bcdd2b3
               }
             }
           }
