@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.8845360824742268" branch-rate="0.6363636363636364" lines-covered="429" lines-valid="485" branches-covered="84" branches-valid="132" complexity="194" version="0" timestamp="1606952276">
+<coverage line-rate="0.8842975206611571" branch-rate="0.6384615384615384" lines-covered="428" lines-valid="484" branches-covered="83" branches-valid="130" complexity="193" version="0" timestamp="1606953352">
   <sources>
-    <source>C:\Users\Zbii\</source>
+    <source>C:\Users\User\</source>
   </sources>
   <packages>
     <package name="Filmoteka" line-rate="0.8067226890756303" branch-rate="0.6517857142857143" complexity="140">
       <classes>
-        <class name="Filmoteka.Clan" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Filmoteka\Clan.cs" line-rate="0.875" branch-rate="0.9" complexity="15">
+        <class name="Filmoteka.Clan" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Filmoteka\Clan.cs" line-rate="0.875" branch-rate="0.9" complexity="15">
           <methods>
             <method name="get_Watchliste" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -85,7 +85,7 @@
             <line number="71" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Filmoteka.Film" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Filmoteka\Film.cs" line-rate="0.875" branch-rate="0.5833333333333334" complexity="20">
+        <class name="Filmoteka.Film" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Filmoteka\Film.cs" line-rate="0.875" branch-rate="0.5833333333333334" complexity="20">
           <methods>
             <method name="get_Reziser" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -219,7 +219,7 @@
             <line number="113" hits="33" branch="false" />
           </lines>
         </class>
-        <class name="Filmoteka.Filmoteka" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Filmoteka\Filmoteka.cs" line-rate="0.6352941176470588" branch-rate="0.575" complexity="45">
+        <class name="Filmoteka.Filmoteka" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Filmoteka\Filmoteka.cs" line-rate="0.6352941176470588" branch-rate="0.575" complexity="45">
           <methods>
             <method name="get_Gosti" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -435,7 +435,7 @@
             <line number="158" hits="3" branch="false" />
           </lines>
         </class>
-        <class name="Filmoteka.Gost" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Filmoteka\Gost.cs" line-rate="0.9038461538461539" branch-rate="0.631578947368421" complexity="45">
+        <class name="Filmoteka.Gost" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Filmoteka\Gost.cs" line-rate="0.9038461538461539" branch-rate="0.631578947368421" complexity="45">
           <methods>
             <method name="get_Username" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -454,7 +454,7 @@
             </method>
             <method name="get_Password" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="33" hits="3" branch="false" />
+                <line number="33" hits="1" branch="false" />
               </lines>
             </method>
             <method name="set_Password" signature="(...)" line-rate="0.8" branch-rate="0.5" complexity="8">
@@ -546,7 +546,7 @@
             <line number="25" hits="0" branch="false" />
             <line number="27" hits="10" branch="false" />
             <line number="28" hits="10" branch="false" />
-            <line number="33" hits="3" branch="false" />
+            <line number="33" hits="1" branch="false" />
             <line number="35" hits="10" branch="false" />
             <line number="36" hits="10" branch="true" condition-coverage="50% (4/8)" />
             <line number="37" hits="0" branch="false" />
@@ -593,7 +593,7 @@
             <line number="122" hits="2" branch="false" />
           </lines>
         </class>
-        <class name="Filmoteka.Reziser" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Filmoteka\Reziser.cs" line-rate="0.9166666666666666" branch-rate="0.75" complexity="5">
+        <class name="Filmoteka.Reziser" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Filmoteka\Reziser.cs" line-rate="0.9166666666666666" branch-rate="0.75" complexity="5">
           <methods>
             <method name="get_ImeRezisera" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -635,7 +635,7 @@
             <line number="33" hits="2" branch="false" />
           </lines>
         </class>
-        <class name="Filmoteka.Watchlist" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Filmoteka\Watchlist.cs" line-rate="0.96" branch-rate="0.875" complexity="10">
+        <class name="Filmoteka.Watchlist" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Filmoteka\Watchlist.cs" line-rate="0.96" branch-rate="0.875" complexity="10">
           <methods>
             <method name="get_Naziv" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -713,9 +713,9 @@
         </class>
       </classes>
     </package>
-    <package name="Unit Testovi" line-rate="0.9595141700404858" branch-rate="0.55" complexity="54">
+    <package name="Unit Testovi" line-rate="0.959349593495935" branch-rate="0.5555555555555556" complexity="53">
       <classes>
-        <class name="AutoGeneratedProgram" filename="C:\Users\Zbii\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AutoGeneratedProgram" filename="C:\Users\User\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -727,7 +727,7 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.ClanTest" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Unit Testovi\ClanTest.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="Unit_Testovi.ClanTest" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Unit Testovi\ClanTest.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="ClanKonstruktor1" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -735,31 +735,31 @@
                 <line number="16" hits="1" branch="false" />
                 <line number="17" hits="1" branch="false" />
                 <line number="18" hits="1" branch="false" />
-                <line number="23" hits="1" branch="false" />
-                <line number="25" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
               </lines>
             </method>
             <method name="vratiWatchList" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
                 <line number="29" hits="1" branch="false" />
                 <line number="30" hits="1" branch="false" />
                 <line number="31" hits="1" branch="false" />
-                <line number="33" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
                 <line number="34" hits="1" branch="false" />
-                <line number="35" hits="1" branch="false" />
-                <line number="36" hits="1" branch="false" />
-                <line number="38" hits="1" branch="false" />
               </lines>
             </method>
             <method name="vratiRokPreplate" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
                 <line number="42" hits="1" branch="false" />
                 <line number="43" hits="1" branch="false" />
                 <line number="44" hits="1" branch="false" />
-                <line number="46" hits="1" branch="false" />
-                <line number="47" hits="1" branch="false" />
-                <line number="48" hits="1" branch="false" />
-                <line number="50" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
@@ -768,26 +768,26 @@
             <line number="16" hits="1" branch="false" />
             <line number="17" hits="1" branch="false" />
             <line number="18" hits="1" branch="false" />
-            <line number="23" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
             <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
             <line number="29" hits="1" branch="false" />
             <line number="30" hits="1" branch="false" />
             <line number="31" hits="1" branch="false" />
-            <line number="33" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
             <line number="34" hits="1" branch="false" />
-            <line number="35" hits="1" branch="false" />
-            <line number="36" hits="1" branch="false" />
             <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
             <line number="42" hits="1" branch="false" />
             <line number="43" hits="1" branch="false" />
             <line number="44" hits="1" branch="false" />
-            <line number="46" hits="1" branch="false" />
-            <line number="47" hits="1" branch="false" />
-            <line number="48" hits="1" branch="false" />
-            <line number="50" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.FilmotekaTest" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Unit Testovi\FilmotekaTest.cs" line-rate="1" branch-rate="1" complexity="4">
+        <class name="Unit_Testovi.FilmotekaTest" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Unit Testovi\FilmotekaTest.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="TestGosti" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -853,7 +853,7 @@
             <line number="47" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.FilmTest" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Unit Testovi\FilmTest.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="Unit_Testovi.FilmTest" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Unit Testovi\FilmTest.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
             <method name="FilmTestKonstruktor1" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -927,7 +927,7 @@
             <line number="57" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.GostTest" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Unit Testovi\GostTest.cs" line-rate="1" branch-rate="0.5" complexity="7">
+        <class name="Unit_Testovi.GostTest" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Unit Testovi\GostTest.cs" line-rate="1" branch-rate="0.5" complexity="6">
           <methods>
             <method name="TestKontruktora" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -964,13 +964,12 @@
                 <line number="43" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="TestPassword" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+            <method name="TestPassword" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="47" hits="1" branch="false" />
                 <line number="48" hits="1" branch="false" />
                 <line number="49" hits="1" branch="false" />
-                <line number="50" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="51" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
@@ -997,11 +996,10 @@
             <line number="47" hits="1" branch="false" />
             <line number="48" hits="1" branch="false" />
             <line number="49" hits="1" branch="false" />
-            <line number="50" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="51" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.NoveFunkcionalnostiTest" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Unit Testovi\NoveFunkcionalnostiTest.cs" line-rate="0.9206349206349206" branch-rate="1" complexity="12">
+        <class name="Unit_Testovi.NoveFunkcionalnostiTest" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Unit Testovi\NoveFunkcionalnostiTest.cs" line-rate="0.9206349206349206" branch-rate="1" complexity="12">
           <methods>
             <method name="TestDajSveFilmoveSGlumcima1" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1177,7 +1175,7 @@
             <line number="145" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.NoviTestovi" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Unit Testovi\NoviTestovi.cs" line-rate="0.9642857142857143" branch-rate="0.5" complexity="10">
+        <class name="Unit_Testovi.NoviTestovi" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Unit Testovi\NoviTestovi.cs" line-rate="0.9642857142857143" branch-rate="0.5" complexity="10">
           <methods>
             <method name="TestZamjenskiObjekat" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1255,7 +1253,7 @@
             <line number="69" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.ReziserTest" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Unit Testovi\ReziserTest.cs" line-rate="0.9629629629629629" branch-rate="1" complexity="3">
+        <class name="Unit_Testovi.ReziserTest" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Unit Testovi\ReziserTest.cs" line-rate="0.9629629629629629" branch-rate="1" complexity="3">
           <methods>
             <method name="ReziserTestKonstruktor1" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1327,7 +1325,7 @@
             <line number="53" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Unit_Testovi.WatchListTest" filename="C:\Users\Zbii\Desktop\VVSZadaca2-master\VVSZadaca2-master\Filmoteka\Unit Testovi\WatchListTest.cs" line-rate="0.9459459459459459" branch-rate="0.5" complexity="9">
+        <class name="Unit_Testovi.WatchListTest" filename="C:\Users\User\Desktop\VVSZadaca2\VVSZadaca2\Filmoteka\Unit Testovi\WatchListTest.cs" line-rate="0.9459459459459459" branch-rate="0.5" complexity="9">
           <methods>
             <method name="TestKonstruktor1" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
