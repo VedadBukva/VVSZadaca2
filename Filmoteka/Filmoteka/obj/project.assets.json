@@ -8,19 +8,34 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\nadir\\.nuget\\packages\\": {}
+<<<<<<< HEAD
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\ANc\\.nuget\\packages\\": {}
+>>>>>>> 640e6f6b2eb766c8042a5fa5f431d6bf89264715
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
       "projectName": "Filmoteka",
-      "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
-      "packagesPath": "C:\\Users\\nadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+      "projectName": "Filmoteka",
+      "projectPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+      "packagesPath": "C:\\Users\\ANc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ANc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 640e6f6b2eb766c8042a5fa5f431d6bf89264715
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

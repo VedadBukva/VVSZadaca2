@@ -137,7 +137,11 @@ namespace Filmoteka
 
         public void DodajNastavak(Film film, double rating, bool istiGlumci, List<string> noviGlumci = null)
         {
-            throw new NotImplementedException();
+            film.Ocjena = rating;
+            if(!istiGlumci)
+            {
+                film.Glumci = noviGlumci;
+            }
         }
 
         #endregion
