@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Filmoteka
@@ -37,7 +38,9 @@ namespace Filmoteka
 
         public Filmoteka()
         {
-
+            gosti = new List<Gost>();
+            clanovi = new List<Clan>();
+            filmovi = new List<Film>();
         }
 
         #endregion
@@ -110,19 +113,25 @@ namespace Filmoteka
         /// <returns></returns>
         public List<Film> DajSveFilmoveSGlumcima(List<string> glumci)
         {
+            Console.WriteLine(filmovi.Count);
             if(glumci.Count == 0 || filmovi.Count == 0)
-               throw new NotImplementedException();
+               throw new ArgumentNullException();
 
             List<Film> temp = new List<Film>();
 
-            filmovi.ForEach(film => {
-                int brojGlumaca = 0;
-                glumci.ForEach(glumac => {
-                    if (film.Glumci.Contains(glumac)) brojGlumaca++;
-                });
-                if (brojGlumaca == glumci.Count) temp.Add(film);
-            });
+            for (int i = 0; i < filmovi.Count; i++) {
+                var brojGlumaca = 0;
+                for (int j = 0; j < glumci.Count; j++) {
 
+                    bool imaLiGlumacUFilmu = filmovi[i].Glumci.Any(glumci[j].Contains);
+                    if (imaLiGlumacUFilmu) brojGlumaca++; 
+                    
+                }
+
+                if (brojGlumaca == glumci.Count) temp.Add(filmovi[i]);
+          
+            }
+            
             return temp;
         }
 
