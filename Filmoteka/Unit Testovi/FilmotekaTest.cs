@@ -13,7 +13,7 @@ namespace Unit_Testovi
         [TestMethod]
         public void TestGosti()
         {
-            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Gost gost = new Gost("Userqwe", "BERINACOCALIC", "Qwerty", "Qwerty");
             var filmoteka = new Filmoteka.Filmoteka();
             filmoteka.Gosti.Add(gost);
             Assert.IsTrue(filmoteka.Gosti.Count == 1);
@@ -23,7 +23,7 @@ namespace Unit_Testovi
         [TestMethod]
         public void TestClanovi()
         {
-            Clan clan = new Clan("user", "pass", "ime", "prezime", new DateTime(2020, 05, 21));
+            Clan clan = new Clan("Userqwe", "BERINACOCALIC", "Qwerty", "Qwerty", new DateTime(2020, 05, 21));
             var filmoteka = new Filmoteka.Filmoteka();
             filmoteka.Clanovi.Add(clan);
             Assert.IsTrue(filmoteka.Clanovi.Count == 1);
@@ -43,8 +43,7 @@ namespace Unit_Testovi
         public void TestKontruktor()
         {
             var f = new Filmoteka.Filmoteka();
-            Assert.IsNull(f);
-
+            Assert.IsNotNull(f);
         }
 
 

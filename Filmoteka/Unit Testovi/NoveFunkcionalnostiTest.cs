@@ -135,12 +135,13 @@ namespace Unit_Testovi
         }
 
         [TestMethod]
-        [ExpectedException(typeof(NotImplementedException))]
+        [ExpectedException(typeof(ArgumentNullException))]
         public void DajSrednjuOcjenuSvihFilmova2()
         {
             List<Film> lista = new List<Film>();
             var watchLista = new Watchlist("lista");
             watchLista.DajSrednjuOcjenuSvihFilmova();
+      
         }
 
         #endregion

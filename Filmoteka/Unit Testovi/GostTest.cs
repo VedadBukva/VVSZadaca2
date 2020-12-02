@@ -13,7 +13,7 @@ namespace Unit_Testovi
         [TestMethod]
         public void TestKontruktora()
         {
-            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Gost gost = new Gost("Userqwe", "BERINACOCALIC", "Qwerty", "Qwerty");
             var filmoteka = new Filmoteka.Filmoteka();
             filmoteka.Gosti.Add(gost);
 
@@ -23,21 +23,21 @@ namespace Unit_Testovi
         [TestMethod]
         public void TestIme()
         {
-            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Gost gost = new Gost("Userqwe", "BERINACOCALIC", "Qwerty", "Qwerty");
             Assert.IsNotNull(gost.Ime);
         }
 
         [TestMethod]
         public void TestPrezime()
         {
-            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Gost gost = new Gost("Userqwe", "BERINACOCALIC", "Qwerty", "Qwerty");
             Assert.IsNotNull(gost.Prezime);
         }
 
         [TestMethod]
         public void TestUser()
         {
-            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Gost gost = new Gost("Userqwe", "BERINACOCALIC", "Qwerty", "Qwerty");
             Assert.IsNotNull(gost.Username);
             Assert.IsTrue(gost.Username.Length > 5 && gost.Username.Length < 20);
         }
@@ -45,7 +45,7 @@ namespace Unit_Testovi
         [TestMethod]
         public void TestPassword()
         {
-            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            Gost gost = new Gost("Userqwe", "BERINACOCALIC", "Qwerty", "Qwerty");
             Assert.IsNotNull(gost.Password);
             Assert.IsTrue(gost.Password.Length > 10 && gost.Password.Length < 20);
         }

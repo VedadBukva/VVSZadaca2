@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\nadir\\.nuget\\packages\\": {}
+    "C:\\Users\\Zbii\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+      "projectUniqueName": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
       "projectName": "Filmoteka",
-      "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
-      "packagesPath": "C:\\Users\\nadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
+      "projectPath": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+      "packagesPath": "C:\\Users\\Zbii\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Filmoteka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Zbii\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

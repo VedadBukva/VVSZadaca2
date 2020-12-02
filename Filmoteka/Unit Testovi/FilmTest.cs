@@ -29,7 +29,7 @@ namespace Unit_Testovi
         public void FilmTestNaziv()
         {
             Film film1 = new Film("Ime Filma1", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
-            Assert.Equals(film1.Naziv, "Ime Filma1");
+            Assert.AreEqual(film1.Naziv.ToString(), "Ime Filma1");
 
         }
 
@@ -37,7 +37,7 @@ namespace Unit_Testovi
         public void FilmTestOcjena()
         {
             Film film1 = new Film("Ime Filma1", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
-            Assert.Equals(film1.Ocjena, "1.5");
+            Assert.AreEqual(film1.Ocjena, 1.5);
 
         }
 
@@ -45,7 +45,7 @@ namespace Unit_Testovi
         public void FilmTestZanr()
         {
             Film film1 = new Film("Ime Filma1", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
-            Assert.Equals(film1.Žanr, "Horor");
+            Assert.AreEqual(film1.Žanr.ToString(), "Horor");
 
         }
 
@@ -53,9 +53,7 @@ namespace Unit_Testovi
         public void FilmTestGlumci()
         {
             Film film1 = new Film("Ime Filma1", 1.5, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
-            List<string> lista = new List<String> { "Jensen Ackles", "Jared Padalecki" };
-            Assert.Equals(film1.Glumci, lista);
-
+            Assert.AreEqual(film1.Glumci[0].ToString(), "Jensen Ackles");
         }
 
         #endregion 

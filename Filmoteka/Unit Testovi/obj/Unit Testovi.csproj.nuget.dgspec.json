@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {}
+    "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
+    "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+        "projectUniqueName": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
         "projectName": "Filmoteka",
-        "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
-        "packagesPath": "C:\\Users\\nadir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\obj\\",
+        "projectPath": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Filmoteka\\Filmoteka.csproj",
+        "packagesPath": "C:\\Users\\Zbii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Filmoteka\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zbii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,17 +56,17 @@
         }
       }
     },
-    "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {
+    "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+        "projectUniqueName": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
         "projectName": "Unit Testovi",
-        "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
-        "packagesPath": "C:\\Users\\nadir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\obj\\",
+        "projectPath": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
+        "packagesPath": "C:\\Users\\Zbii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Unit Testovi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zbii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
-                "projectPath": "C:\\Users\\nadir\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
+              "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
+                "projectPath": "C:\\Users\\Zbii\\Desktop\\VVSZadaca2-master\\VVSZadaca2-master\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
               }
             }
           }

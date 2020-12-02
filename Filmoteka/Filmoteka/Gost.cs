@@ -33,8 +33,7 @@ namespace Filmoteka
             get => password;
             set
             {
-                if (String.IsNullOrWhiteSpace(value) || value.Length < 10 || value.Length > 20
-                    || !value.All(char.IsUpper))
+                if (String.IsNullOrWhiteSpace(value) || value.Length < 10 || value.Length > 20 || !value.All(char.IsUpper))
                     throw new InvalidOperationException("Neispravan format za password!");
 
                 password = value.GetHashCode().ToString(); 

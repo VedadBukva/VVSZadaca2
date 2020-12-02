@@ -57,12 +57,9 @@ namespace Filmoteka
         /// <returns></returns>
         public double DajSrednjuOcjenuSvihFilmova()
         {
-            if (filmovi.Count == 0)
-<<<<<<< HEAD
+            if (filmovi.Count == 0) 
                 throw new ArgumentNullException();
-=======
-                throw new NotImplementedException();
->>>>>>> 85b8684922768133906a75cdce765866335916c9
+
             else
             {
                 double zbirOcjena = 0;
