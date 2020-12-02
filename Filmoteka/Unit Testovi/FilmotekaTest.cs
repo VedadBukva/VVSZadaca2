@@ -11,38 +11,39 @@ namespace Unit_Testovi
         #region Filmoteka
 
         [TestMethod]
-        public void FilmotekaTestKonstruktor1()
+        public void TestGosti()
         {
-
-
-        }
-
-
-        [TestMethod]
-        public void FilmotekaTestKonstruktor2()
-        {
-
+            Gost gost = new Gost("User", "password", "qwerty", "qwerty1234");
+            var filmoteka = new Filmoteka.Filmoteka();
+            filmoteka.Gosti.Add(gost);
+            Assert.IsTrue(filmoteka.Gosti.Count == 1);
 
         }
 
         [TestMethod]
-        public void DodajWatchlistuTest()
+        public void TestClanovi()
         {
+            Clan clan = new Clan("user", "pass", "ime", "prezime", new DateTime(2020, 05, 21));
+            var filmoteka = new Filmoteka.Filmoteka();
+            filmoteka.Clanovi.Add(clan);
+            Assert.IsTrue(filmoteka.Clanovi.Count == 1);
+        }
 
+        [TestMethod]
+        public void TestFilmovi()
+        {
+            Film film = new Film("imeFilma", 5, Zanr.Akcija, new List<String> { });
+            var filmoteka = new Filmoteka.Filmoteka();
+            filmoteka.Filmovi.Add(film);
+            Assert.IsTrue(filmoteka.Filmovi.Count == 1);
 
         }
 
         [TestMethod]
-        public void DajSveFilmoveZaReziseraTest()
+        public void TestKontruktor()
         {
-
-
-        }
-
-        [TestMethod]
-        public void RadSaKorisnicimaTest()
-        {
-
+            var f = new Filmoteka.Filmoteka();
+            Assert.IsNull(f);
 
         }
 
