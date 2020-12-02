@@ -41,8 +41,6 @@ namespace Unit_Testovi
 
             filmoteka.DodajNastavak(film, 4.0, true);
 
-            //foreach(var f in filmoteka.Filmovi)  Console.WriteLine(f.Naziv + " " + f.Žanr.ToString() + " " + f.Glumci.Count);
-
             Assert.IsTrue(filmoteka.Filmovi.Find(f => f.Naziv == "Need For Speed 2" && f.Žanr == Zanr.Akcija && f.Glumci.Count == 2) != null);
         }
 

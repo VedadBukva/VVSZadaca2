@@ -5732,16 +5732,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\User\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\ANc\\.nuget\\packages\\": {}
->>>>>>> 640e6f6b2eb766c8042a5fa5f431d6bf89264715
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
       "projectName": "Unit Testovi",
       "projectPath": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
@@ -5750,16 +5745,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
-      "projectName": "Unit Testovi",
-      "projectPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Unit Testovi\\Unit Testovi.csproj",
-      "packagesPath": "C:\\Users\\ANc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Unit Testovi\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\ANc\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 640e6f6b2eb766c8042a5fa5f431d6bf89264715
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5772,13 +5757,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
               "projectPath": "C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
-=======
-            "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj": {
-              "projectPath": "C:\\Users\\ANc\\Source\\Repos\\VVSZadaca2\\Filmoteka\\Filmoteka\\Filmoteka.csproj"
->>>>>>> 640e6f6b2eb766c8042a5fa5f431d6bf89264715
             }
           }
         }
@@ -5827,5 +5807,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\User\\Desktop\\VVSZadaca2\\Filmoteka\\Unit Testovi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

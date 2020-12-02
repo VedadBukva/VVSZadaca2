@@ -137,6 +137,19 @@ namespace Filmoteka
 
         public void DodajNastavak(Film film, double rating, bool istiGlumci, List<string> noviGlumci = null)
         {
+            if(filmovi.Count == 0) throw new ArgumentNullException();
+            char zadnjiZnak = film.Naziv.Last();
+            if(Char.IsLetter(zadnjiZnak))
+            {
+                film.Naziv = film.Naziv + " 2";
+            }
+            else
+            {
+                int nastavak = zadnjiZnak - '0';
+                nastavak++;
+                film.Naziv = film.Naziv + " " + nastavak.ToString();
+
+            }
             film.Ocjena = rating;
             if(!istiGlumci)
             {

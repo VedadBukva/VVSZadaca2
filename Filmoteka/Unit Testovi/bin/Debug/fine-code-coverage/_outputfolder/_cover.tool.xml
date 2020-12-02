@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.4654" branch-rate="0.2636" version="1.9" timestamp="1606932848" lines-covered="128" lines-valid="275" branches-covered="29" branches-valid="110">
+<coverage line-rate="0.48969999999999997" branch-rate="0.2807" version="1.9" timestamp="1606935734" lines-covered="144" lines-valid="294" branches-covered="32" branches-valid="114">
   <sources>
     <source>C:\Users\User\</source>
   </sources>
   <packages>
-    <package name="Filmoteka" line-rate="0.37" branch-rate="0.245" complexity="131">
+    <package name="Filmoteka" line-rate="0.3823" branch-rate="0.2641" complexity="135">
       <classes>
         <class name="Filmoteka.Clan" filename="Desktop\VVSZadaca2\Filmoteka\Filmoteka\Clan.cs" line-rate="0" branch-rate="0" complexity="11">
           <methods>
@@ -96,7 +96,7 @@
             <line number="42" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Filmoteka.Film" filename="Desktop\VVSZadaca2\Filmoteka\Filmoteka\Film.cs" line-rate="0.825" branch-rate="0.5832999999999999" complexity="20">
+        <class name="Filmoteka.Film" filename="Desktop\VVSZadaca2\Filmoteka\Filmoteka\Film.cs" line-rate="0.85" branch-rate="0.5832999999999999" complexity="20">
           <methods>
             <method name="get_Reziser" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -119,20 +119,20 @@
             </method>
             <method name="get_Naziv" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="54" hits="2" branch="False" />
+                <line number="54" hits="6" branch="False" />
               </lines>
             </method>
             <method name="set_Naziv" signature="(System.String)" line-rate="0.8" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="56" hits="7" branch="False" />
-                <line number="57" hits="7" branch="True" condition-coverage="50% (1/2)">
+                <line number="56" hits="9" branch="False" />
+                <line number="57" hits="9" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
                     <condition number="9" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="58" hits="0" branch="False" />
-                <line number="60" hits="7" branch="False" />
-                <line number="61" hits="7" branch="False" />
+                <line number="60" hits="9" branch="False" />
+                <line number="61" hits="9" branch="False" />
               </lines>
             </method>
             <method name="get_Ocjena" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -142,21 +142,21 @@
             </method>
             <method name="set_Ocjena" signature="(System.Double)" line-rate="0.8" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="68" hits="10" branch="False" />
-                <line number="69" hits="10" branch="True" condition-coverage="50% (2/4)">
+                <line number="68" hits="9" branch="False" />
+                <line number="69" hits="9" branch="True" condition-coverage="50% (2/4)">
                   <conditions>
                     <condition number="11" type="jump" coverage="50%" />
                     <condition number="30" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="70" hits="0" branch="False" />
-                <line number="72" hits="10" branch="False" />
-                <line number="73" hits="10" branch="False" />
+                <line number="72" hits="9" branch="False" />
+                <line number="73" hits="9" branch="False" />
               </lines>
             </method>
-            <method name="get_Žanr" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Žanr" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="78" hits="0" branch="False" />
+                <line number="78" hits="2" branch="False" />
               </lines>
             </method>
             <method name="set_Žanr" signature="(Filmoteka.Zanr)" line-rate="1" branch-rate="1" complexity="1">
@@ -166,25 +166,25 @@
             </method>
             <method name="get_Glumci" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="84" hits="2" branch="False" />
+                <line number="84" hits="4" branch="False" />
               </lines>
             </method>
             <method name="set_Glumci" signature="(System.Collections.Generic.List`1&lt;System.String&gt;)" line-rate="0.8332999999999999" branch-rate="0.75" complexity="4">
               <lines>
-                <line number="86" hits="9" branch="False" />
-                <line number="87" hits="67" branch="True" condition-coverage="100% (2/2)">
+                <line number="86" hits="8" branch="False" />
+                <line number="87" hits="58" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="47" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="88" hits="20" branch="True" condition-coverage="50% (1/2)">
+                <line number="88" hits="17" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
                     <condition number="27" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="89" hits="0" branch="False" />
-                <line number="91" hits="9" branch="False" />
-                <line number="92" hits="9" branch="False" />
+                <line number="91" hits="8" branch="False" />
+                <line number="92" hits="8" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.String,System.Double,Filmoteka.Zanr,System.Collections.Generic.List`1&lt;System.String&gt;,Filmoteka.Reziser)" line-rate="0.9166" branch-rate="0.5" complexity="2">
@@ -216,44 +216,44 @@
             <line number="43" hits="7" branch="False" />
             <line number="44" hits="7" branch="False" />
             <line number="49" hits="0" branch="False" />
-            <line number="54" hits="2" branch="False" />
-            <line number="56" hits="7" branch="False" />
-            <line number="57" hits="7" branch="True" condition-coverage="50% (1/2)">
+            <line number="54" hits="6" branch="False" />
+            <line number="56" hits="9" branch="False" />
+            <line number="57" hits="9" branch="True" condition-coverage="50% (1/2)">
               <conditions>
                 <condition number="9" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="58" hits="0" branch="False" />
-            <line number="60" hits="7" branch="False" />
-            <line number="61" hits="7" branch="False" />
+            <line number="60" hits="9" branch="False" />
+            <line number="61" hits="9" branch="False" />
             <line number="66" hits="0" branch="False" />
-            <line number="68" hits="10" branch="False" />
-            <line number="69" hits="10" branch="True" condition-coverage="50% (2/4)">
+            <line number="68" hits="9" branch="False" />
+            <line number="69" hits="9" branch="True" condition-coverage="50% (2/4)">
               <conditions>
                 <condition number="11" type="jump" coverage="50%" />
                 <condition number="30" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="70" hits="0" branch="False" />
-            <line number="72" hits="10" branch="False" />
-            <line number="73" hits="10" branch="False" />
-            <line number="78" hits="0" branch="False" />
+            <line number="72" hits="9" branch="False" />
+            <line number="73" hits="9" branch="False" />
+            <line number="78" hits="2" branch="False" />
             <line number="79" hits="7" branch="False" />
-            <line number="84" hits="2" branch="False" />
-            <line number="86" hits="9" branch="False" />
-            <line number="87" hits="67" branch="True" condition-coverage="100% (2/2)">
+            <line number="84" hits="4" branch="False" />
+            <line number="86" hits="8" branch="False" />
+            <line number="87" hits="58" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="47" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="88" hits="20" branch="True" condition-coverage="50% (1/2)">
+            <line number="88" hits="17" branch="True" condition-coverage="50% (1/2)">
               <conditions>
                 <condition number="27" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="89" hits="0" branch="False" />
-            <line number="91" hits="9" branch="False" />
-            <line number="92" hits="9" branch="False" />
+            <line number="91" hits="8" branch="False" />
+            <line number="92" hits="8" branch="False" />
             <line number="99" hits="7" branch="False" />
             <line number="100" hits="7" branch="False" />
             <line number="101" hits="7" branch="False" />
@@ -272,7 +272,7 @@
             <line number="113" hits="7" branch="False" />
           </lines>
         </class>
-        <class name="Filmoteka.Filmoteka" filename="Desktop\VVSZadaca2\Filmoteka\Filmoteka\Filmoteka.cs" line-rate="0.5539999999999999" branch-rate="0.4722" complexity="41">
+        <class name="Filmoteka.Filmoteka" filename="Desktop\VVSZadaca2\Filmoteka\Filmoteka\Filmoteka.cs" line-rate="0.5529" branch-rate="0.5" complexity="45">
           <methods>
             <method name="get_Gosti" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -425,19 +425,38 @@
                 <line number="136" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="DodajNastavak" signature="(Filmoteka.Film,System.Double,System.Boolean,System.Collections.Generic.List`1&lt;System.String&gt;)" line-rate="1" branch-rate="1" complexity="2">
+            <method name="DodajNastavak" signature="(Filmoteka.Film,System.Double,System.Boolean,System.Collections.Generic.List`1&lt;System.String&gt;)" line-rate="0.7222" branch-rate="0.8332999999999999" complexity="6">
               <lines>
                 <line number="139" hits="3" branch="False" />
-                <line number="140" hits="3" branch="False" />
-                <line number="141" hits="3" branch="True" condition-coverage="100% (2/2)">
+                <line number="140" hits="4" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="15" type="jump" coverage="100%" />
+                    <condition number="16" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="142" hits="2" branch="False" />
+                <line number="141" hits="2" branch="False" />
+                <line number="142" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
                 <line number="143" hits="2" branch="False" />
                 <line number="144" hits="2" branch="False" />
-                <line number="145" hits="3" branch="False" />
+                <line number="145" hits="2" branch="False" />
+                <line number="147" hits="0" branch="False" />
+                <line number="148" hits="0" branch="False" />
+                <line number="149" hits="0" branch="False" />
+                <line number="150" hits="0" branch="False" />
+                <line number="152" hits="0" branch="False" />
+                <line number="153" hits="2" branch="False" />
+                <line number="154" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="130" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="155" hits="1" branch="False" />
+                <line number="156" hits="1" branch="False" />
+                <line number="157" hits="1" branch="False" />
+                <line number="158" hits="2" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -583,16 +602,35 @@
             <line number="135" hits="2" branch="False" />
             <line number="136" hits="2" branch="False" />
             <line number="139" hits="3" branch="False" />
-            <line number="140" hits="3" branch="False" />
-            <line number="141" hits="3" branch="True" condition-coverage="100% (2/2)">
+            <line number="140" hits="4" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="15" type="jump" coverage="100%" />
+                <condition number="16" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="142" hits="2" branch="False" />
+            <line number="141" hits="2" branch="False" />
+            <line number="142" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="44" type="jump" coverage="50%" />
+              </conditions>
+            </line>
             <line number="143" hits="2" branch="False" />
             <line number="144" hits="2" branch="False" />
-            <line number="145" hits="3" branch="False" />
+            <line number="145" hits="2" branch="False" />
+            <line number="147" hits="0" branch="False" />
+            <line number="148" hits="0" branch="False" />
+            <line number="149" hits="0" branch="False" />
+            <line number="150" hits="0" branch="False" />
+            <line number="152" hits="0" branch="False" />
+            <line number="153" hits="2" branch="False" />
+            <line number="154" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="130" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="155" hits="1" branch="False" />
+            <line number="156" hits="1" branch="False" />
+            <line number="157" hits="1" branch="False" />
+            <line number="158" hits="2" branch="False" />
             <line number="39" hits="7" branch="False" />
             <line number="40" hits="7" branch="False" />
             <line number="41" hits="7" branch="False" />
@@ -996,7 +1034,7 @@
         </class>
       </classes>
     </package>
-    <package name="Unit Testovi" line-rate="0.9166" branch-rate="0.5" complexity="14">
+    <package name="Unit Testovi" line-rate="0.9464" branch-rate="0.5" complexity="18">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -1008,6 +1046,44 @@
           </methods>
           <lines>
             <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Unit_Testovi.ClanTest" filename="Desktop\VVSZadaca2\Filmoteka\Unit Testovi\ClanTest.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="ClanKonstruktor1" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="ClanKonstruktor2" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="vratiWatchList" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="vratiRokPreplate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
           </lines>
         </class>
         <class name="Unit_Testovi.NoveFunkcionalnostiTest" filename="Desktop\VVSZadaca2\Filmoteka\Unit Testovi\NoveFunkcionalnostiTest.cs" line-rate="0.9473" branch-rate="1" complexity="3">
@@ -1066,7 +1142,7 @@
             <line number="52" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Unit_Testovi.NoviTestovi" filename="Desktop\VVSZadaca2\Filmoteka\Unit Testovi\NoviTestovi.cs" line-rate="0.9285" branch-rate="0.5" complexity="10">
+        <class name="Unit_Testovi.NoviTestovi" filename="Desktop\VVSZadaca2\Filmoteka\Unit Testovi\NoviTestovi.cs" line-rate="0.9642000000000001" branch-rate="0.5" complexity="10">
           <methods>
             <method name="TestZamjenskiObjekat" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1081,45 +1157,45 @@
                 <line number="28" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestDodajNastavakIstiGlumci" signature="()" line-rate="0.8571" branch-rate="0.5" complexity="4">
+            <method name="TestDodajNastavakIstiGlumci" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
               <lines>
                 <line number="36" hits="1" branch="False" />
                 <line number="37" hits="1" branch="False" />
                 <line number="39" hits="1" branch="False" />
                 <line number="40" hits="1" branch="False" />
                 <line number="42" hits="1" branch="False" />
-                <line number="46" hits="2" branch="True" condition-coverage="50% (2/4)">
+                <line number="44" hits="2" branch="True" condition-coverage="50% (2/4)">
                   <conditions>
                     <condition number="16" type="jump" coverage="50%" />
                     <condition number="24" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="47" hits="0" branch="False" />
+                <line number="45" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestDodajNastavakRazlicitiGlumci" signature="()" line-rate="0.8571" branch-rate="0.5" complexity="4">
+            <method name="TestDodajNastavakRazlicitiGlumci" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="51" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
                 <line number="52" hits="1" branch="False" />
-                <line number="54" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
                 <line number="55" hits="1" branch="False" />
-                <line number="57" hits="1" branch="False" />
-                <line number="59" hits="2" branch="True" condition-coverage="50% (2/4)">
+                <line number="57" hits="2" branch="True" condition-coverage="50% (2/4)">
                   <conditions>
                     <condition number="16" type="jump" coverage="50%" />
                     <condition number="24" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="60" hits="0" branch="False" />
+                <line number="58" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestDodajNastavakIzuzetak" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="TestDodajNastavakIzuzetak" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
               <lines>
-                <line number="65" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
                 <line number="66" hits="1" branch="False" />
                 <line number="68" hits="1" branch="False" />
-                <line number="70" hits="1" branch="False" />
-                <line number="71" hits="1" branch="False" />
+                <line number="69" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
@@ -1138,30 +1214,30 @@
             <line number="39" hits="1" branch="False" />
             <line number="40" hits="1" branch="False" />
             <line number="42" hits="1" branch="False" />
-            <line number="46" hits="2" branch="True" condition-coverage="50% (2/4)">
+            <line number="44" hits="2" branch="True" condition-coverage="50% (2/4)">
               <conditions>
                 <condition number="16" type="jump" coverage="50%" />
                 <condition number="24" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="47" hits="0" branch="False" />
-            <line number="51" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
             <line number="52" hits="1" branch="False" />
-            <line number="54" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
             <line number="55" hits="1" branch="False" />
-            <line number="57" hits="1" branch="False" />
-            <line number="59" hits="2" branch="True" condition-coverage="50% (2/4)">
+            <line number="57" hits="2" branch="True" condition-coverage="50% (2/4)">
               <conditions>
                 <condition number="16" type="jump" coverage="50%" />
                 <condition number="24" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="60" hits="0" branch="False" />
-            <line number="65" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
             <line number="66" hits="1" branch="False" />
             <line number="68" hits="1" branch="False" />
-            <line number="70" hits="1" branch="False" />
-            <line number="71" hits="1" branch="False" />
+            <line number="69" hits="0" branch="False" />
           </lines>
         </class>
       </classes>
