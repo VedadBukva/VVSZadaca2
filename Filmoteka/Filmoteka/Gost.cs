@@ -113,10 +113,10 @@ namespace Filmoteka
             {
                 throw new NotImplementedException();
             }
-            string username = ime[0].ToString() + ime[1].ToString() + prezime + ime.Remove(2);
+            string username = ime[0].ToString() + ime[1].ToString() + prezime + ime.Substring(2);
             if(username.Length > 20)
             {
-                username = username.Remove(19);
+                username = username.Remove(20);
             }
             Tuple<string, string> rezultat = Tuple.Create(username.ToLower(), username.ToUpper());
             return rezultat;

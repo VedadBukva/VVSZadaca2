@@ -87,5 +87,63 @@ namespace Unit_Testovi
         }
 
         #endregion
+
+        #region AutomatskiKorisničkiPodaci
+
+        [TestMethod]
+        public void TestAutomatskiKorisničkiPodaci1()
+        {
+            Assert.AreEqual(new Tuple<string, string>("nakalajdzicdir", "NAKALAJDZICDIR"), Gost.AutomatskiKorisničkiPodaci("Nadir", "Kalajdzic"));
+
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NotImplementedException))]
+        public void TestAutomatskiKorisničkiPodaci2()
+        {
+            Gost.AutomatskiKorisničkiPodaci("Nadir1", "Kalajdzic1"); // ne smiju biti brojevi u imenu
+
+        }
+
+
+        [TestMethod]
+        public void TestAutomatskiKorisničkiPodaci3()
+        {
+            Assert.AreEqual(new Tuple<string, string>("nakalajdzicdirrrrrrr", "NAKALAJDZICDIRRRRRRR"), 
+                Gost.AutomatskiKorisničkiPodaci("NadirRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR", "Kalajdzic"));
+
+        }
+
+        #endregion
+
+        #region Srednja ocjena filmova
+
+        [TestMethod]
+        public void DajSrednjuOcjenuSvihFilmova1()
+        {
+            List<Film> lista = new List<Film>();
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Film film = new Film("Supernatural " + i, i % 4 + 1, Zanr.Horor, new List<string>() { "Jensen Ackles", "Jared Padalecki" });
+                lista.Add(film);
+            }
+
+            var watchLista = new Watchlist("lista", lista);
+
+            Assert.AreEqual(2.5, watchLista.DajSrednjuOcjenuSvihFilmova());
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NotImplementedException))]
+        public void DajSrednjuOcjenuSvihFilmova2()
+        {
+            List<Film> lista = new List<Film>();
+            var watchLista = new Watchlist("lista");
+            watchLista.DajSrednjuOcjenuSvihFilmova();
+        }
+
+        #endregion
+
     }
 }

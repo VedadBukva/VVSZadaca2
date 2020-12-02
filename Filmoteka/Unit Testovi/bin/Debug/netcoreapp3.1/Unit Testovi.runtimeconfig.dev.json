@@ -1,13 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-<<<<<<< HEAD
       "C:\\Users\\nadir\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\nadir\\.nuget\\packages"
-=======
-      "C:\\Users\\ANc\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ANc\\.nuget\\packages"
->>>>>>> 72175caa50bfcfdc053b6c9dd2380d216bcdd2b3
     ]
   }
 }
